@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9992000124908EE900701B4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9992FFFF24908EE900701B4B /* LaunchScreen.storyboard */; };
+		9992000C24908EEA00701B4B /* zalopaywebviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9992000B24908EEA00701B4B /* zalopaywebviewTests.swift */; };
+		9992FFF524908EE700701B4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9992FFF424908EE700701B4B /* AppDelegate.swift */; };
+		9992FFF724908EE700701B4B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9992FFF624908EE700701B4B /* SceneDelegate.swift */; };
+		9992FFF924908EE700701B4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9992FFF824908EE700701B4B /* ViewController.swift */; };
+		9992FFFC24908EE700701B4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9992FFFA24908EE700701B4B /* Main.storyboard */; };
+		9992FFFE24908EE900701B4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9992FFFD24908EE900701B4B /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9992000824908EEA00701B4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9992FFE924908EE700701B4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9992FFF024908EE700701B4B;
+			remoteInfo = zalopaywebview;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9992000024908EE900701B4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9992000224908EE900701B4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9992000724908EEA00701B4B /* zalopaywebviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zalopaywebviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9992000B24908EEA00701B4B /* zalopaywebviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zalopaywebviewTests.swift; sourceTree = "<group>"; };
+		9992000D24908EEA00701B4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9992FFF124908EE700701B4B /* zalopaywebview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zalopaywebview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9992FFF424908EE700701B4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9992FFF624908EE700701B4B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9992FFF824908EE700701B4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9992FFFB24908EE700701B4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9992FFFD24908EE900701B4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9992000424908EEA00701B4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9992FFEE24908EE700701B4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9992000A24908EEA00701B4B /* zalopaywebviewTests */ = {
+			isa = PBXGroup;
+			children = (
+				9992000B24908EEA00701B4B /* zalopaywebviewTests.swift */,
+				9992000D24908EEA00701B4B /* Info.plist */,
+			);
+			path = zalopaywebviewTests;
+			sourceTree = "<group>";
+		};
+		9992FFE824908EE700701B4B = {
+			isa = PBXGroup;
+			children = (
+				9992FFF324908EE700701B4B /* zalopaywebview */,
+				9992000A24908EEA00701B4B /* zalopaywebviewTests */,
+				9992FFF224908EE700701B4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9992FFF224908EE700701B4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9992FFF124908EE700701B4B /* zalopaywebview.app */,
+				9992000724908EEA00701B4B /* zalopaywebviewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9992FFF324908EE700701B4B /* zalopaywebview */ = {
+			isa = PBXGroup;
+			children = (
+				9992FFF424908EE700701B4B /* AppDelegate.swift */,
+				9992FFF624908EE700701B4B /* SceneDelegate.swift */,
+				9992FFF824908EE700701B4B /* ViewController.swift */,
+				9992FFFA24908EE700701B4B /* Main.storyboard */,
+				9992FFFD24908EE900701B4B /* Assets.xcassets */,
+				9992FFFF24908EE900701B4B /* LaunchScreen.storyboard */,
+				9992000224908EE900701B4B /* Info.plist */,
+			);
+			path = zalopaywebview;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9992000624908EEA00701B4B /* zalopaywebviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9992001324908EEA00701B4B /* Build configuration list for PBXNativeTarget "zalopaywebviewTests" */;
+			buildPhases = (
+				9992000324908EEA00701B4B /* Sources */,
+				9992000424908EEA00701B4B /* Frameworks */,
+				9992000524908EEA00701B4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9992000924908EEA00701B4B /* PBXTargetDependency */,
+			);
+			name = zalopaywebviewTests;
+			productName = zalopaywebviewTests;
+			productReference = 9992000724908EEA00701B4B /* zalopaywebviewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9992FFF024908EE700701B4B /* zalopaywebview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9992001024908EEA00701B4B /* Build configuration list for PBXNativeTarget "zalopaywebview" */;
+			buildPhases = (
+				9992FFED24908EE700701B4B /* Sources */,
+				9992FFEE24908EE700701B4B /* Frameworks */,
+				9992FFEF24908EE700701B4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zalopaywebview;
+			productName = zalopaywebview;
+			productReference = 9992FFF124908EE700701B4B /* zalopaywebview.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9992FFE924908EE700701B4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Luu Duc Hoang";
+				TargetAttributes = {
+					9992000624908EEA00701B4B = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 9992FFF024908EE700701B4B;
+					};
+					9992FFF024908EE700701B4B = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 9992FFEC24908EE700701B4B /* Build configuration list for PBXProject "zalopaywebview" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9992FFE824908EE700701B4B;
+			productRefGroup = 9992FFF224908EE700701B4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9992FFF024908EE700701B4B /* zalopaywebview */,
+				9992000624908EEA00701B4B /* zalopaywebviewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9992000524908EEA00701B4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9992FFEF24908EE700701B4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9992000124908EE900701B4B /* LaunchScreen.storyboard in Resources */,
+				9992FFFE24908EE900701B4B /* Assets.xcassets in Resources */,
+				9992FFFC24908EE700701B4B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9992000324908EEA00701B4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9992000C24908EEA00701B4B /* zalopaywebviewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9992FFED24908EE700701B4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9992FFF924908EE700701B4B /* ViewController.swift in Sources */,
+				9992FFF524908EE700701B4B /* AppDelegate.swift in Sources */,
+				9992FFF724908EE700701B4B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9992000924908EEA00701B4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9992FFF024908EE700701B4B /* zalopaywebview */;
+			targetProxy = 9992000824908EEA00701B4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9992FFFA24908EE700701B4B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9992FFFB24908EE700701B4B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9992FFFF24908EE900701B4B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9992000024908EE900701B4B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9992000E24908EEA00701B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9992000F24908EEA00701B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9992001124908EEA00701B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QYB2C3M8NH;
+				INFOPLIST_FILE = zalopaywebview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoangld.zamo.zalopaywebview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9992001224908EEA00701B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QYB2C3M8NH;
+				INFOPLIST_FILE = zalopaywebview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoangld.zamo.zalopaywebview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9992001424908EEA00701B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QYB2C3M8NH;
+				INFOPLIST_FILE = zalopaywebviewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoangld.zamo.zalopaywebviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zalopaywebview.app/zalopaywebview";
+			};
+			name = Debug;
+		};
+		9992001524908EEA00701B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QYB2C3M8NH;
+				INFOPLIST_FILE = zalopaywebviewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoangld.zamo.zalopaywebviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zalopaywebview.app/zalopaywebview";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9992001024908EEA00701B4B /* Build configuration list for PBXNativeTarget "zalopaywebview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9992001124908EEA00701B4B /* Debug */,
+				9992001224908EEA00701B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9992001324908EEA00701B4B /* Build configuration list for PBXNativeTarget "zalopaywebviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9992001424908EEA00701B4B /* Debug */,
+				9992001524908EEA00701B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9992FFEC24908EE700701B4B /* Build configuration list for PBXProject "zalopaywebview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9992000E24908EEA00701B4B /* Debug */,
+				9992000F24908EEA00701B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9992FFE924908EE700701B4B /* Project object */;
+}
